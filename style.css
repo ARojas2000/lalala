@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(https://wallpapercave.com/wp/Qm9D3qf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+.arriba{
+    background-color: rgba(0, 0, 0, 0.49);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    text-transform: uppercase;
+    height: 15vw;
+
+}
+
+.arriba div a{
+    text-decoration: none;
+    background-color: rgba(234, 239, 89, 0.472);
+    border-radius: 15px;
+    color: black;
+    border: solid 5px white;
+    padding: 5px;
+}
+
+.arriba div a:hover{
+    color: white;
+    background: black;
+    transition: 0.5s;
+} 
+
+.logohome{
+    display: flex;
+    font-size: 5vw;
+    color: white;
+    padding: 5% 5% 5% 5%;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    flex: 2;
+}
+
+.navbar a{
+    display: block;
+    padding: 3% 3% 3% 3%;
+    color: rgb(0, 0, 0);
+    max-width: 25%;
+    max-height: 25%;
+    text-decoration: none;
+    font-size: 1.88vw;
+    background-color: rgba(234, 239, 89, 0.472);
+    border-radius:20px;
+    font-family: 'Anton', sans-serif;
+    margin-right: 20px;
+    margin-top: 8.6%;
+    margin-bottom: 2%;
+    border: white solid 5px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    align-items: center;
+    line-height: 5%;
+}
+
+.navbar a:hover{
+    color: white;
+    background: black;
+    transition: 0.3s;
+}
+
+/* Contenido */
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-top: 15vw;
+}
+
+.box1 p{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    background-color: rgba(234, 239, 89, 0.472);
+    border-radius: 30px;
+    padding: 5% 5%;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px rgba(247, 164, 40, 0.854) solid;
+}
+
+#beatle{
+    display: flex;
+    border-radius: 5%;
+    margin: auto;
+    flex-grow: 0.5;
+    height: 10%;
+    width: 10%;
+}
+
+.puntos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18.5px;
+    font-family: 'Anton', sans-serif;
+    color: rgba(255, 255, 255, 0.509);
+    padding: 1.5% 1.5% 1.5% 1.5%;
+    transition: 3s;
+    font-stretch: 50%;
+}
+.puntos:hover{
+color: white;
+}
+
+.box2{
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 20px;
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.spotify{
+    display: flex;
+    flex: auto;
+}
+
+.wiki{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vw;
+    padding-top: 1.5%;
+    position: static;
+}
+footer {
+    background-color: #dfb90f65;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-12 {
+    flex-basis: 70%;
+    text-decoration: none;
+  }
+  
+  .col-md-6 {
+    flex-basis: 50%;
+    text-decoration: none;
+  }
+  
+  .col-md-3 {
+    flex-basis: 25%;
+    text-decoration: none;
+  }
+  .col-md-3 ul li{
+    list-style: none;
+  }
+  .col-md-3 ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
+  .col-md-3 ul li a:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .footext {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 15px;
+  }
+@media screen and (max-width: 800px) {
+    .navbar {
+      width: 100%;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+    }
+    
+    .navbar a {
+      width: auto;
+      display: block;
+      margin-right: 2%;
+    }
+    
+    .header .logohome {
+      margin-right: auto;
+    }
+    
+    .box1 {
+      padding-top: 120px;
+    }
+    
+    .box1 p {
+      margin: 2% 5%;
+    }
+    
+    #beatle {
+      height: 30%;
+      width: 30%;
+    }
+    
+    .puntos {
+      font-size: 14px;
+    }
+    
+    .logohome {
+      font-size: 40px;
+    }
+    .arriba .navbar a {
+        flex-direction: column;
+    }
+  }
